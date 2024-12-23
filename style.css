@@ -1,15 +1,54 @@
 body {
+    width: 100vw;
+    height: 100vh;
     font-family: "Source Code Pro", serif;
     font-optical-sizing: auto;
-    font-weight: 250;
+    font-weight: 400;
     font-style: normal;
-    margin: 0 auto;
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
     color: whitesmoke;
     background: rgb(2,0,45);
-    background: linear-gradient(120deg, rgba(2,0,45,1) 0%, rgba(9,121,107,1) 37%, rgba(0,255,226,1) 100%);
+    background: linear-gradient(120deg, rgba(2,0,45,1) 10%, hsl(173, 86%, 15%) 60%, hsl(173, 100%, 35%) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    letter-spacing: 10px;
+    line-height: 1.5;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.7;
 }
 
 header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
     width: 100%;
-    height: 100px;
+    height: 10%;
+}
+
+div{
+    width: 350px;
+    height: 100%;
+    text-align: left;
+}
+
+main{
+    text-align: left;
+    width: 100%;
+    height: 80%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 10%;
 }
